@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel=”stylesheet” href=”style.css”>
+    <link rel=”preconnect” href=”https://fonts.googleapis.com”>
+    <link rel=”preconnect” href=”https://fonts.gstatic.com” crossorigin>
+    <link href=”https://fonts.googleapis.com/
+    css2?family=Inter:wght@700&family=Poppins:wght@400;700&display=swap”
+    rel=”stylesheet”>
 </head>
 
 
@@ -26,7 +32,27 @@ margin:0 16px;
 padding: 24px 0;
 
 }
+.escola{
+background-image: linear-gradient(#383D58,#00c0eb);
+color: white;
+display:flex;
+justify-content: center;
+align-items: center;
+padding: 24px;
 
+
+}
+.estudante-icone{
+  width:24px;
+}
+
+.estudante-div{
+  text-align: center;
+}
+
+.estudante-imagem{
+width: 120px;
+}
 
   </style>
 </header>
@@ -38,6 +64,11 @@ body{
   color: white;
   
 }
+
+body{
+  font-family:'poppins', sans-serif ;
+}
+
 </style>
 
 <body>
@@ -52,6 +83,26 @@ body{
 
 
 </header>
+<section class="escola">
+  <div class="escola-conteúdo">
+  <h2 class="escola-titulo">Sobre a escola </h2>
+  <p class="escola-texto-um">A escola Alura foi fundada em 2010 com o objetivo de ensinar Pensamento Computacional através da Programação.  </p>
+  <p class="escola-texto-dois">A turma mais famosa é a Segunda Série A. Uma turma diversa e engajada, as vezes, um pouco bagunceira, mas que entrega excelentes resultados!</p>
+  </div>
+<img src="/home/escola/Área de Trabalho/IMG/Monitor-cuate.png" width="400" alt="monitor imagem" >
+</section>
+<section class="Estudante">
+  <h2 class="Estudante-titulo"> Quem são nossos estudantes?</h2>
+  <div class="estudante-div">
+  <img class="estudante-imagem"  src="/home/escola/Área de Trabalho/IMG/Marcelo 1.png" alt="foto do estudante Marcelo">
+  <h3>Marcelo</h3>
+  <img class="estudante-icone" src="/home/escola/Área de Trabalho/IMG/instagram.png" alt=”Instagram”>
+<img class="estudante-icone" src="/home/escola/Área de Trabalho/IMG/github" alt=”Github”>
+<img class="estudante-icone" src="/home/escola/Área de Trabalho/IMG/linkedin" alt=”LinkedIn”>
+<h3 class="estudante-nome">Marcelo</h3>
+  </div>
+</section>
+  
 
 </body>
 </html>
